@@ -1,0 +1,314 @@
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+label,
+li,
+ul {
+  font-family: 'Cabin', sans-serif;
+}
+
+.container-detail {
+  width: 1150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 50px;
+}
+
+.container-detail .img-pro {
+  width: 650px;
+  padding-right: 50px;
+}
+
+.container-detail .img-pro img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.container-detail .img-pro .sub-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-detail .img-pro .sub-img img {
+  width: 220px;
+  height: 200px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.container-detail .del-pro {
+  padding-left: 50px;
+  border-left: solid 2px #009954;
+  width: 50%;
+  display: block;
+}
+
+.container-detail .del-pro h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container-detail .del-pro h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container-detail .del-pro h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container-detail .del-pro p {
+  font-size: 17px;
+  padding: 20px 0px;
+  border-top: dotted 2px black;
+  border-bottom: dotted 2px black;
+  margin-bottom: 20px;
+}
+
+.container-detail .del-pro .ssl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-detail .del-pro .ssl label {
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-detail .del-pro .ssl select {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.container-detail .del-pro .ssl input {
+  height: 25px;
+  width: 40px;
+}
+
+.container-detail .del-pro button {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.container-detail .del-pro button a {
+  color: white;
+}
+
+.container-detail .del-pro .add {
+  background-color: #FFCC66;
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.container-detail .del-pro .add:hover {
+	color: black;
+}
+
+.container-detail .del-pro .mua {
+  background-color: #FFCC66;
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.container-detail .del-pro .mua:hover {
+	color: black;
+}
+
+.container-detail .del-pro .tab-size {
+  padding: 30px 0;
+  border-top: dotted 2px black;
+  border-bottom: dotted 2px black;
+}
+
+.container-detail .del-pro .tab-size img {
+  width: 100%;
+}
+
+.container-detail .del-pro .btn {
+	width: 75%;
+}
+
+.container-detail .del-pro .btn button {
+	background-color: #ffe3ab;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff600d;
+	display: block;
+	text-align: center;
+	padding: 20px 10px;
+	margin-left: 90px;
+	border: none;
+	width: 75%;
+}
+
+.container-detail .del-pro .btn a{
+	background-color: #FFCC66;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff600d;
+  display: block;
+  text-align: center;
+  padding: 20px 10px;
+  margin-left: 110px;
+  border: 2px solid #ff600d;
+}
+
+.container-detail .del-pro .btn a:hover {
+	background-color: #ffc043;
+}
+
+.cart-left button {
+  width: 40px;
+  height: 100px;
+  background-color: #009954;
+  color: white;
+  position: fixed;
+  z-index: 1999;
+  -webkit-transform: translate(1480px, -900px);
+          transform: translate(1480px, -900px);
+}
+
+.cart-cont {
+  position: fixed;
+  display: inline-block;
+  width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-transform: translate(1145px, -1000px);
+          transform: translate(1145px, -1000px);
+  z-index: 9999;
+}
+
+.cart-cont img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-right: 10px;
+}
+
+.cart-cont h1 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+.cart-cont .item-cart {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted black;
+}
+
+.cart-cont .item-cart .del {
+  position: relative;
+  -webkit-transform: translate(200px, -70px);
+          transform: translate(200px, -70px);
+  border: none;
+  background-color: whitesmoke;
+  color: red;
+  font-size: 16px;
+}
+
+.cart-cont .item-cart a {
+  font-size: 18px;
+  color: #555;
+}
+
+.cart-cont .item-cart a:hover {
+  color: #009954;
+}
+
+.cart-cont .item-cart .sl-tt {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-cont .item-cart .sl-tt input {
+  color: black;
+  width: 30px;
+}
+
+.cart-cont .sum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cart-cont .sum .s-t {
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-cont .sum .bt-tt {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #009954;
+  color: white;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=pro-del.css.map */
